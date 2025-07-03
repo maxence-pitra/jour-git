@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="git.css">
   <meta charset="utf-8">
   <title>Tableau commandes git</title>
 </head>
 
 <body>
+    
 <table border="2">
-  <thead>
+
+    <thead>
     <tr>
       <th>Commande</th>
       <th>Description</th>
     </tr>
   </thead>
-</tbody>
 
 
 <tr>
@@ -29,7 +31,7 @@
     <td>Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
 </tr><tr>
     <td>$ git diff --staged</td>
-    <td>Montre les di°érences de fichier entre la version indexée et la dernière version</td>
+    <td>Montre les différences de fichier entre la version indexée et la dernière version</td>
 </tr><tr>
     <td>$ git reset [fichier]</td>
     <td>Enleve le fichier de l'index, mais conserve son contenu</td>
@@ -102,7 +104,7 @@
     <td>Montre l'historique des versions, y compris les actions de renom-mage, pour le fichier spécifié</td>
 </tr><tr>
     <td>$ git diff [premiere-branche]...[deuxieme-branche]</td>
-    <td>Montre les di°érences de contenu entre deux branches</td>
+    <td>Montre les différences de contenu entre deux branches</td>
 </tr>
 <tr>
     <td>$ git show [commit]</td>
@@ -112,7 +114,7 @@
     <td>Annule tous les commits après `[commit]`, en conservant les modifications localement</td>
 </tr><tr>
     <td>$ git reset --hard [commit]</td>
-    <td>Supprime tout l'historique et les modifications e°ectuées après le commit spécifié</td>
+    <td>Supprime tout l'historique et les modifications effectuées après le commit spécifié</td>
 </tr><tr>
     <td>$ git fetch [nom-de-depot]</td>
     <td>Récupère tout l'historique du dépôt nommé</td>

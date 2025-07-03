@@ -1,0 +1,12 @@
+body{display: flex;
+    justify-content: center;
+    
+    background-color: bisque;
+}
+
+
+    table
+    {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+    
+    tr:hover{ background-color: cornflowerblue;}
